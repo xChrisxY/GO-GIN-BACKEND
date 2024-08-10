@@ -1,0 +1,6 @@
+go init mod gitbub,com/go-backend
+go get -u github.com/gin-gonic/gin
+go get -u gorm.io/gorm
+go get -u gorm.io/driver/mysql
+go run migrate/migrate.go
+go get github.com/joho/godotenv
